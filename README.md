@@ -1,7 +1,10 @@
-📁 Drive App - File Upload System
+8📁 Drive App - File Upload System
 
 A simple Drive-like web application built using Node.js, Express, EJS, and MongoDB.
 Users can register, login, and upload files securely just like a mini cloud storage system.
+
+
+
 
 🚀 Features
 
@@ -21,6 +24,8 @@ Each user can manage their own files
 Only logged-in users can upload and access files
 
 
+
+
 🛠️ Tech Stack
 
 Backend: Node.js, Express.js
@@ -34,6 +39,8 @@ File Upload: Multer
 Authentication: Express-session / JWT
 
 Styling: CSS / Bootstrap (optional)
+
+
 
 
 
@@ -74,9 +81,13 @@ File info + user data stored in MongoDB
 5.Access Files
 Users can view their uploaded files
 
+
+
+
+
 📁 Project Structure
 
-Copy code
+
 Drive
 │
 ├── /uploads         # Uploaded files
@@ -88,10 +99,19 @@ Drive
 ├── app.js           # Main server
 └── package.json
 
+
+
+
 ✨ Future Improvements
+
 📥 Download files
+
 🗑️ Delete files
+
 📁 Folder system
+
 ☁️ Cloud storage (AWS S3 / Supabase)
+
 🔍 Search files
+
 🎨 Modern UI (React / Tailwind)
