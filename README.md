@@ -1,51 +1,77 @@
+📁 Drive App - File Upload System
+
+A simple Drive-like web application built using Node.js, Express, EJS, and MongoDB.
+Users can register, login, and upload files securely just like a mini cloud storage system.
+
+🚀 Features
+👤 User Registration
+Create a new account
+🔐 User Login
+Secure authentication system
+📤 File Upload
+Upload files (PDF or others)
+📂 Drive-like Storage
+Each user can manage their own files
+🔒 Authentication & Authorization
+Only logged-in users can upload and access files
 
 
-# Drive - File Upload/Download App
+🛠️ Tech Stack
+Backend: Node.js, Express.js
+Frontend: EJS Templates
+Database: MongoDB + Mongoose
+File Upload: Multer
+Authentication: Express-session / JWT
+Styling: CSS / Bootstrap (optional)
 
-Simple Node.js + Express file upload and download application using EJS views.
-
-## Install
-
+📦 Installation
 Install dependencies:
-
-```bash
 npm install
-```
 
-## Run
-
-Start the server (default port 3000):
-
-```bash
+Run the Application
+Start the server:
 node app.js
-# or with an environment variable
-PORT=4000 node app.js
-```
 
-Open http://localhost:3000 in your browser.
 
-## Usage / Example
+🌐 Access the App
+Open your browser:
 
-- The home page contains the upload form (views/*.ejs).
-- API routes are under `/api/files` and user routes under `/api/users`.
+http://localhost:3000
 
-Upload a file using the form on the site, or with `curl`:
+📌 How It Works
+1.Register
+User signs up and data is stored in MongoDB
 
-```bash
-curl -v -F "file=@/path/to/yourfile.jpg" http://localhost:3000/upload-file
-```
+2.Login
+User logs in with credentials
 
-Download a file directly (served from `/uploads`):
+3.Upload File
+Authenticated users upload files using Multer
 
-```bash
-curl -O http://localhost:3000/uploads/yourfile.jpg
-```
+4.Store Data
+File info + user data stored in MongoDB
 
-## Notes
+5.Access Files
+Users can view their uploaded files
 
-- Views are in the `views/` directory.
-- Uploaded files are stored in the `uploads/` directory and served statically.
-- See `app.js` for server startup and route mounting.
+📁 Project Structure
 
-If you want me to include a specific code snippet from one of the project files, tell me which file and I'll add it here.
+Copy code
+Drive
+│
+├── /uploads         # Uploaded files
+├── /models          # Mongoose models
+├── /routes          # Express routes
+├── /views           # EJS templates
+├── /public          # Static files
+├── /config          # DB connection
+├── app.js           # Main server
+└── package.json
 
+✨ Future Improvements
+📥 Download files
+🗑️ Delete files
+📁 Folder system
+☁️ Cloud storage (AWS S3 / Supabase)
+🔍 Search files
+🎨 Modern UI (React / Tailwind)
