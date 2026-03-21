@@ -4,33 +4,53 @@ A simple Drive-like web application built using Node.js, Express, EJS, and Mongo
 Users can register, login, and upload files securely just like a mini cloud storage system.
 
 🚀 Features
+
 👤 User Registration
 Create a new account
+
 🔐 User Login
 Secure authentication system
+
 📤 File Upload
 Upload files (PDF or others)
+
 📂 Drive-like Storage
 Each user can manage their own files
+
 🔒 Authentication & Authorization
 Only logged-in users can upload and access files
 
 
 🛠️ Tech Stack
+
 Backend: Node.js, Express.js
+
 Frontend: EJS Templates
+
 Database: MongoDB + Mongoose
+
 File Upload: Multer
+
 Authentication: Express-session / JWT
+
 Styling: CSS / Bootstrap (optional)
 
+
+
 📦 Installation
+
 Install dependencies:
+
 npm install
 
+
 Run the Application
+
 Start the server:
+
 node app.js
+
+
 
 
 🌐 Access the App
