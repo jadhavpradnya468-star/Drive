@@ -1,117 +1,45 @@
-📁 Drive App - File Upload System
+# 📁 Drive App - File Upload System
 
-A simple Drive-like web application built using Node.js, Express, EJS, and MongoDB.
-Users can register, login, and upload files securely just like a mini cloud storage system.
+A simple **Drive-like web application** built using **Node.js, Express, EJS, and MongoDB**.  
+Users can register, log in, and upload files securely — just like a mini cloud storage system.
 
+---
 
+## 🚀 Features
 
+- 👤 **User Registration**  
+  Create a new account
 
-🚀 Features
+- 🔐 **User Login**  
+  Secure authentication system
 
-👤 User Registration
-Create a new account
+- 📤 **File Upload**  
+  Upload files (PDF or others)
 
-🔐 User Login
-Secure authentication system
+- 📂 **Drive-like Storage**  
+  Each user can manage their own files
 
-📤 File Upload
-Upload files (PDF or others)
+- 🔒 **Authentication & Authorization**  
+  Only logged-in users can upload and access files
 
-📂 Drive-like Storage
-Each user can manage their own files
+---
 
-🔒 Authentication & Authorization
-Only logged-in users can upload and access files
+## 🛠️ Tech Stack
 
+- **Backend:** Node.js, Express.js  
+- **Frontend:** EJS Templates  
+- **Database:** MongoDB + Mongoose  
+- **File Upload:** Multer  
+- **Authentication:** Express-session / JWT  
+- **Styling:** CSS / Bootstrap (optional)
 
+---
+##Live DEMO of my app:
+link:
 
+## 📦 Installation
 
-🛠️ Tech Stack
-
-Backend: Node.js, Express.js
-
-Frontend: EJS Templates
-
-Database: MongoDB + Mongoose
-
-File Upload: Multer
-
-Authentication: Express-session / JWT
-
-Styling: CSS / Bootstrap (optional)
-
-
-
-
-
-📦 Installation
-
-Install dependencies:
-
-npm install
-
-
-Run the Application
-
-Start the server:
-
-node app.js
-
-
-
-
-🌐 Access the App
-Open your browser:
-
-http://localhost:3000
-
-📌 How It Works
-1.Register
-User signs up and data is stored in MongoDB
-
-2.Login
-User logs in with credentials
-
-3.Upload File
-Authenticated users upload files using Multer
-
-4.Store Data
-File info + user data stored in MongoDB
-
-5.Access Files
-Users can view their uploaded files
-
-
-
-
-
-📁 Project Structure
-
-
-Drive
-│
-├── /uploads         # Uploaded files
-├── /models          # Mongoose models
-├── /routes          # Express routes
-├── /views           # EJS templates
-├── /public          # Static files
-├── /config          # DB connection
-├── app.js           # Main server
-└── package.json
-
-
-
-
-✨ Future Improvements
-
-📥 Download files
-
-🗑️ Delete files
-
-📁 Folder system
-
-☁️ Cloud storage (AWS S3 / Supabase)
-
-🔍 Search files
-
-🎨 Modern UI (React / Tailwind)
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/jadhavpradnya468-star/Drive.git
+cd Drive
